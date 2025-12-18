@@ -1,0 +1,73 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  background: #800000; /* CSUN maroon */
+  color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+#info, #timer, #highscore {
+  margin-top: 15px;
+  padding: 10px;
+  background: #eef2f7;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.correct {
+  color: #2e8b57;
+  font-weight: bold;
+}
+
+.wrong {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+#timer {
+  color: #0066cc;
+}
+
+#highscore {
+  color: #800080;
+}
+
+button {
+  margin-top: 15px;
+  background: #800000;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #a83232;
+}

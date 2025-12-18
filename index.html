@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CSUN Map Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>CSUN Map Quiz</h2>
+    <div id="map"></div>
+    <div id="info">Double-click on the map to find the location!</div>
+    <div id="timer">Time: 0s</div>
+    <div id="highscore">High Score: Not set</div>
+    <button id="resetBtn">Play Again</button>
+  </div>
+
+  <!-- Load your script -->
+  <script src="script.js"></script>
+
+  <!-- Load Google Maps API with your key -->
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjItzw_b6K-6WEWtVoBoBR4hIgzFlIYYM&callback=initMap">
+  </script>
+</body>
+</html>
